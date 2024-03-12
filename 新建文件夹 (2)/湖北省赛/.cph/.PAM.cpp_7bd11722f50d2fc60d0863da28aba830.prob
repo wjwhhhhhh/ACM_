@@ -1,0 +1,1 @@
+{"name":"Local: PAM","url":"d:\\codehhh\\新建文件夹 (2)\\湖北省赛\\PAM.cpp","tests":[{"id":1696939594399,"input":"abcdcdab\n","output":"1"},{"id":1696944026217,"input":"abbababababbab","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\codehhh\\新建文件夹 (2)\\湖北省赛\\PAM.cpp","group":"local","local":true}

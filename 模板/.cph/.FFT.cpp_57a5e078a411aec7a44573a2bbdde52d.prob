@@ -1,0 +1,1 @@
+{"name":"Local: FFT","url":"d:\\codehhh\\模板\\FFT.cpp","tests":[{"id":1687872563901,"input":"83517939\n327830619","output":"27379735249159740"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\codehhh\\模板\\FFT.cpp","group":"local","local":true}

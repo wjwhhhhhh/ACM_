@@ -1,0 +1,1 @@
+{"name":"Local: M","url":"d:\\codehhh\\The 10th Shandong Provincial Collegiate Programming Contest\\M.cpp","tests":[{"id":1688534330081,"input":"4\n1 100000000\n7 1\n10 2\n7 2\n","output":"5\n4\n3\n2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\codehhh\\The 10th Shandong Provincial Collegiate Programming Contest\\M.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 病毒侵袭","url":"d:\\codehhh\\kuang\\病毒侵袭.cpp","tests":[{"id":1687594707711,"input":"3\naaa\nbbb\nccc\n1\naaabbbccc","output":"web 1: 1 2 3\ntotal: 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\codehhh\\kuang\\病毒侵袭.cpp","group":"local","local":true}

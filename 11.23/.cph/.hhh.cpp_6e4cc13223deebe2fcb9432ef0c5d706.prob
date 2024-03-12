@@ -1,0 +1,1 @@
+{"name":"Local: hhh","url":"d:\\codehhh\\11.23\\hhh.cpp","tests":[{"id":1700965063496,"input":"3\nd \nb\nc\nabc\n1\n1 1","output":""},{"id":1700966204243,"input":"3\ncda\nbbb\ncad\ndbbbbbcdaa\n1\n9 9\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\codehhh\\11.23\\hhh.cpp","group":"local","local":true}

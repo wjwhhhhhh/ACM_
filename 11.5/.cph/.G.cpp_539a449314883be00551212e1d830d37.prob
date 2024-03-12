@@ -1,0 +1,1 @@
+{"name":"Local: G","url":"d:\\codehhh\\11.5\\G.cpp","tests":[{"id":1699177800312,"input":"1\n()())()))","output":"(((\nimpossible\n)))("}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\codehhh\\11.5\\G.cpp","group":"local","local":true}

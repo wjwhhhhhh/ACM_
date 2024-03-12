@@ -1,0 +1,1 @@
+{"name":"Local: 大模拟","url":"d:\\codehhh\\新建文件夹 (2)\\大模拟.cpp","tests":[{"id":1696227733012,"input":"3\n3\n3 2 1\n5\n2 4 5 3 1\n10\n7 2 4 6 1 9 10 8 5 3","output":"1 4 7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\codehhh\\新建文件夹 (2)\\大模拟.cpp","group":"local","local":true}

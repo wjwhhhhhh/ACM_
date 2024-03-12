@@ -1,0 +1,1 @@
+{"name":"Local: 1174 Left-View of Binary Tree","url":"d:\\codehhh\\11.18\\1174 Left-View of Binary Tree.cpp","tests":[{"id":1700652389000,"input":"8\n2 3 1 5 4 7 8 6\n1 2 3 6 7 4 5 8","output":"1 2 3 4 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\codehhh\\11.18\\1174 Left-View of Binary Tree.cpp","group":"local","local":true}

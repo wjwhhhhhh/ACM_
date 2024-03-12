@@ -1,0 +1,1 @@
+{"name":"Local: Keywords_Search","url":"d:\\codehhh\\kuang\\Keywords_Search.cpp","tests":[{"id":1687591099398,"input":"1\n5\nshe\nhe\nsay\nshr\nher\nyasherhs","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\codehhh\\kuang\\Keywords_Search.cpp","group":"local","local":true}

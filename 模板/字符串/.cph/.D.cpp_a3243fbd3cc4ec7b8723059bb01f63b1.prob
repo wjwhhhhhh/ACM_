@@ -1,0 +1,1 @@
+{"name":"Local: D","url":"d:\\codehhh\\模板\\字符串\\D.cpp","tests":[{"id":1686022910293,"input":"42\n82\n120\n156\n190\n222\n252\n280\n306\n330\n352\n372\n390\n406\n420\n432\n442\n450\n456\n460\n462","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\codehhh\\模板\\字符串\\D.cpp","group":"local","local":true}

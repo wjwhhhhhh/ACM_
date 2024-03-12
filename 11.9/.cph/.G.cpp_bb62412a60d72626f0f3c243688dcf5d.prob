@@ -1,0 +1,1 @@
+{"name":"Local: G","url":"d:\\codehhh\\11.9\\G.cpp","tests":[{"id":1699530769929,"input":"1\n3\n010\n4\n0100\n7\n0001000\n5\n11111\n6\n010101\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\codehhh\\11.9\\G.cpp","group":"local","local":true}
