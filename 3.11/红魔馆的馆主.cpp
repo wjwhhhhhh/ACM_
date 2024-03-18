@@ -14,35 +14,31 @@ template <class T> bool chmin(T &a, T b)
     a > b ? (a = b) : (a = a);
     return a == b;
 }
-int a;
-class A
-{
-  public:
-    static A &GetA()
-    {
-        static A val;
-        return val;
-    }
-    void cou()
-    {
-
-        cout << a << endl;
-        a++;
-    }
-
-  private:
-    A();
-    ~A();
-    void operator=(const A val) = delete;
-};
-void h()
-{
-    A::GetA().cou();
-}
 signed main()
 {
     ios::sync_with_stdio(false);
     cin.tie(0);
     cout << setprecision(15) << fixed;
+    i64 tem = 0;
+    cin >> tem;
+    if (tem % 495 == 0)
+        cout << "-1";
+    else
+    {
+        i64 si = tem % 495, id = 1;
+        while (1)
+        {
+            si = si * 10 % 495;
+            if (495 - si < pow(10, id))
+            {
+                string a = to_string(495 - si);
+                while (a.size() != id)
+                    a = "0" + a;
+                cout << a << endl;
+                break;
+            }
+            id++;
+        }
+    }
     return 0;
 }

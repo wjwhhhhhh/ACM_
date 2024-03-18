@@ -1,43 +1,55 @@
-#pragma o2;
-#include <algorithm>
-#include <cassert>
-#include <cstdio>
-#include <iostream>
-#include <ranges>
-#include <set>
-#include <string>
-#include <vector>
-
+#include <bits/stdc++.h>
+#define dug(x) cerr << "死了吧小丑" << x << endl
+#define fir(a, b, c) for (int a = b; a < c; a++)
 using namespace std;
 using i64 = long long;
-const int N = 1e3 + 10;
-int main()
+using two = array<int, 2>;
+template <class T> bool chmax(T &a, T b)
 {
-
-    int n;
-    scanf("%d", &n);
-    vector<int> a(n);
-    vector<int> ans(1, -1);
-    for (int i = 0; i < n; i++)
-        scanf("%d", &a[i]);
-    set<int> mp;
-    mp.insert(a.back());
-    for (auto x : a | std::views::reverse)
-    {
-        auto it = mp.upper_bound(x);
-        if (it == mp.end())
-            ans.push_back(-1);
-        else
-            ans.push_back(*it);
-        mp.insert(x);
-    }
-    std::ranges::reverse(ans);
-    // for(int i=N;i>=0;i--)
-    // {
-
-    // }
-    // reverse(ans.begin(), ans.end());
-    for (auto &c : a)
-        printf("%d ", c);
+    a > b ? (a = a) : (a = b);
+    return a == b;
 }
-// 64 位输出请用 printf("%lld")
+template <class T> bool chmin(T &a, T b)
+{
+    a > b ? (a = b) : (a = a);
+    return a == b;
+}
+int a = 0;
+class A
+{
+  public:
+    static A &GetA()
+    {
+        static A val;
+        return val;
+    }
+    void cou()
+    {
+
+        cout << a << endl;
+        a++;
+    }
+
+  private:
+    A() = default;
+    ~A() = default;
+    void operator=(const A val) = delete;
+};
+mutex mukl;
+void h()
+{
+    lock_guard<mutex> lock(mukl);
+    A::GetA().cou();
+}
+signed main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cout << setprecision(15) << fixed;
+    vector<std::thread> all;
+    for (int i = 0; i < 10; i++)
+        all.emplace_back(std::move(std::thread{h}));
+    for (auto &c : all)
+        c.join();
+    return 0;
+}
